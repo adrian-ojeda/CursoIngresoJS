@@ -2,8 +2,8 @@
 y luego mostrarlo por 'alert' al presionar el botón  'mostrar'*/
 function mostrar()
 {
-    var dato
-	dato=prompt("Ingrese su mensaje")
-    alert(dato)
+    var nombre
+	nombre=prompt("Ingrese su mensaje")
+    alert(nombre)
 }
 
