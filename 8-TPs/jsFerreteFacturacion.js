@@ -3,9 +3,9 @@ A.	Ingresar tres precios de productos y mostrar la suma de los mismos.
 B.	Ingresar tres precios de productos y mostrar el promedio de los mismos.
 C.	ingresar tres precios de productos  y mostrar precio final (más IVA 21%).
 */
-function Sumar () 
+function Sumar ()
 {
-var num1, num2, num3,total;
+    var num1, num2, num3,suma;
 
 num1=parseInt(document.getElementById("PrecioUno").value);
 num2=parseInt(document.getElementById("PrecioDos").value);
@@ -13,10 +13,10 @@ num3=parseInt(document.getElementById("PrecioTres").value);
 
 //parseInt(num1, num2, num3);
 
-total=num1+num2+num3;
+suma=num1+num2+num3;
 
-alert("El total es: "+total);
-}
+alert("El total es: "+suma);
+	}
 
 function Promedio () 
 {
