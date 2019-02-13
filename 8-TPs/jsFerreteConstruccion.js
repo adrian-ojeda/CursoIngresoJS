@@ -20,7 +20,7 @@ function Circulo ()
 {
 	var radio, total;
 
-largo=parseInt(document.getElementById("Radio").value);
+radio=parseInt(document.getElementById("Radio").value);
 
 total=radio*radio;
 
