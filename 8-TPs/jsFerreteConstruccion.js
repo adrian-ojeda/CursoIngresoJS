@@ -22,7 +22,7 @@ function Circulo ()
 
 radio=parseInt(document.getElementById("Radio").value);
 
-total=radio*radio;
+total=radio*radio*radio;
 
 alert("La cantidad de alambre a comprar es: "+total)
 }

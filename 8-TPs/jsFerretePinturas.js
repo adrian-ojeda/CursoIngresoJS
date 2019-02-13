@@ -6,7 +6,7 @@ function FahrenheitCentigrados ()
 {
 	var num1,far;
 
-    num1=parseInt(document.getElementById("Temperatura").value);
+    num1=parseFloat(document.getElementById("Temperatura").value);
 
 if(num1==0){
     alert(num1+" Fahrenheit son 32 centígrados");
@@ -20,7 +20,7 @@ function CentigradosFahrenheit ()
 {
 	var num1,resultado;
 
-    num1=parseInt(document.getElementById("Temperatura").value);
+    num1=parseFloat(document.getElementById("Temperatura").value);
 
 if(num1==32){
     alert(num1+" centígrados son 0 Fahrenheit");
