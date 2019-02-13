@@ -23,6 +23,18 @@ function CalcularPrecio ()
             precioFinal=cantidad*35;
             document.getElementById("precioDescuento").value=precioFinal;
          }
+    if(cantidad==5&&marca=="ArgentinaLuz"){
+        precioFinal=cantidad*35;
+        precioFinal=precioFinal-(precioFinal*0.4)
+        document.getElementById("precioDescuento").value=precioFinal;
+            }
+    if(cantidad=5&&marca!="ArgentinaLuz"){
+        precioFinal=cantidad*35;
+        precioFinal=precioFinal-(precioFinal*0.3);
+        document.getElementById("precioDescuento").value=precioFinal;
+    }
+
+    }
      }
 
 
