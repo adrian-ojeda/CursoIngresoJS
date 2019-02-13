@@ -8,7 +8,7 @@ ancho=prompt("Ingrese el ancho del rectángulo");
 
 parseInt(largo,ancho);
 
-resultado=largo*ancho;
+resultado=largo*2+ancho*2;
 
 alert("El perímetro del rectángulo es: "+resultado);
 }
