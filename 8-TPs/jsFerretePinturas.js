@@ -8,12 +8,12 @@ function FahrenheitCentigrados ()
 
     num1=parseFloat(document.getElementById("Temperatura").value);
 
-if(num1==0){
-    alert(num1+" Fahrenheit son 32 centígrados");
-}else{    
-far=(num1+1)*32;
-    alert(num1+" Fahrenheit son "+far+" centígrados");
-}
+    if(num1==0){
+        alert(num1+" Fahrenheit son 32 centígrados");
+        }else{    
+            far=(num1+1)*32;
+            alert(num1+" Fahrenheit son "+far+" centígrados");
+            }
 }
 
 function CentigradosFahrenheit () 
@@ -22,10 +22,10 @@ function CentigradosFahrenheit ()
 
     num1=parseFloat(document.getElementById("Temperatura").value);
 
-if(num1==32){
-    alert(num1+" centígrados son 0 Fahrenheit");
-}else{    
-resultado=(num1/32)-1;
-    alert(num1+" centigrados son "+resultado+" Fahrenheit");
-}
+    if(num1==32){
+        alert(num1+" centígrados son 0 Fahrenheit");
+        }else{    
+            resultado=(num1/32)-1;
+            alert(num1+" centigrados son "+resultado+" Fahrenheit");
+            }
 }

@@ -32,8 +32,18 @@ function CalcularPrecio ()
         precioFinal=cantidad*35;
         precioFinal=precioFinal-(precioFinal*0.3);
         document.getElementById("precioDescuento").value=precioFinal;
+        }
+    if(cantidad==4&&marca==("ArgentinaLuz"||"FelipeLamparas")){
+        precioFinal=cantidad*35;
+        precioFinal=precioFinal-(precioFinal*0.25);
+        document.getElementById("precioDescuento").value=precioFinal;
+        }
+    if(cantidad==4&&marca!=("ArgentinaLuz"||"FelipeLamparas")){
+        precioFinal=cantidad*35;
+        precioFinal=precioFinal-(precioFinal*0.20);
+        document.getElementById("precioDescuento").value=precioFinal;
     }
-
+    
     }
      }
 
