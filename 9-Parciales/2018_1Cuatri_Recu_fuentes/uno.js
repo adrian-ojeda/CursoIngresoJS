@@ -6,10 +6,10 @@ function mostrar()
 var masc1, masc2, peso1, peso2, pesototal;
 
 
-masc1=prompt("Ingresa el nombre de la primera mascota.");
-peso1=parseInt(prompt("Ingresa su peso en kilos."));
-masc2=prompt("Ingresa el nombre de la segunda mascota");
-peso2=parseInt(prompt("Ingresa su peso en kilos."));
+masc1=prompt("Ingrese el nombre de la primera mascota.");
+peso1=parseInt(prompt("Ingrese su peso en kilos."));
+masc2=prompt("Ingrese el nombre de la segunda mascota");
+peso2=parseInt(prompt("Ingrese su peso en kilos."));
 
 pesototal=peso1+peso2;
 
