@@ -36,9 +36,6 @@ switch(laHora){
         break;
     default:
         alert("La hora no existe.");
-        
-
-
-}
+    }
 
 }//FIN DE LA FUNCIÓN
