@@ -36,7 +36,7 @@ function verificar()
         alert("Falta para llegar al número.");
         }else{
           alert("Se pasó del número.");
-        }  
+            }  
       }else{
         alert("Usted es un ganador!!! y en solo "+contadorIntentos+" intentos.");
   }
