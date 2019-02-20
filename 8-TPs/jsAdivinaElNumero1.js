@@ -25,7 +25,7 @@ function comenzar()
 function verificar()
 {
   var num;
-  contadorIntentos=1;
+  contadorIntentos=0;
   
   num=parseInt(document.getElementById("numero").value);
   
