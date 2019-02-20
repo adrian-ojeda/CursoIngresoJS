@@ -25,16 +25,20 @@ function comenzar()
 function verificar()
 {
   var num;
-  contadorIntentos=0;
+  contadorIntentos=1;
   
   num=parseInt(document.getElementById("numero").value);
-  
-  if(num!=numeroSecreto){
-    contadorIntentos++;
+
+if(numeroSecreto!=num){
     document.getElementById("intentos").value=contadorIntentos;
-  }else{
-    alert("Usted es un ganador!!! y en solo "+contadorIntentos+" intentos.")
+    num=parseInt(document.getElementById("numero").value);
+    contadorIntentos+1;
+    }else{
+        alert("Usted es un ganador!!! y en solo "+contadorIntentos+" intentos.")
   }
+  
+
+
 
 
 
