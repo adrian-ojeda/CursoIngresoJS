@@ -28,18 +28,17 @@ function verificar()
   
   num=parseInt(document.getElementById("numero").value);
 
+
   if(numeroSecreto!=num){
     contadorIntentos++;
-    document.getElementById("intentos").value=contadorIntentos;  
-  }else{
+    document.getElementById("intentos").value=contadorIntentos;
+      if(num<numeroSecreto){
+        alert("Falta para llegar al número.");
+        }else{
+          alert("Se pasó del número.");
+        }  
+      }else{
         alert("Usted es un ganador!!! y en solo "+contadorIntentos+" intentos.");
   }
-  
-  /*if(num==numeroSecreto){
-    alert("Usted es un ganador!!! y en solo "+contadorIntentos+" intentos.")
-  }else{
-    contadorIntentos+1;
-    document.getElementById("intentos").value=contadorIntentos;
-  }*/
 	
 }
