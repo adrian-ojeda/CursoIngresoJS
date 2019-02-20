@@ -34,7 +34,7 @@ function CalcularPrecio ()
              }
 
     if(cantidad==4){
-        if(marca==("ArgentinaLuz"||"FelipeLamparas")){
+        if(marca=="ArgentinaLuz"||"FelipeLamparas"){
             precioFinal=cantidad*35;
             precioFinal=precioFinal-(precioFinal*0.25);
             document.getElementById("precioDescuento").value=precioFinal;
