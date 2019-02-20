@@ -5,7 +5,7 @@ var mesDelAño = document.getElementById('mes').value;
 
 switch(mesDelAño){
     case 'Enero':
-        alert("Que comiences bien el año!!!.");
+        alert("Que comiences bien el año!!!");
         break;
     case 'Marzo':
         alert("A clases!!!");
