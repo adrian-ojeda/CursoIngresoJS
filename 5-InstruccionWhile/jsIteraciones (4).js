@@ -5,6 +5,7 @@ function mostrar()
 
 while(numero>=0&&numero<=9){
 	document.getElementById("Numero").value=numero;
+	break;
 }
 
 }//FIN DE LA FUNCIÓN
