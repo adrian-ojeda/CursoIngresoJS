@@ -1,0 +1,9 @@
+break tambien se puede usar en while
+
+while(cont<5){
+
+    if(r+a){
+        continue;
+    }
+    cont++;
+}
