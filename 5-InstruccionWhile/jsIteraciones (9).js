@@ -2,9 +2,7 @@ function mostrar()
 {
 
   var contador=0;
-  var minimo, maximo;
-  minimo=parseInt(minimo);
-  maximo=parseInt(maximo);
+  //var minimo=0, maximo=0;
 
 	// declarar variables
 
@@ -12,17 +10,36 @@ function mostrar()
 
 	respuesta=confirm("Quiere ingresar un número?");
 
-  while(respuesta==true){
-    acumulador=prompt("Ingrese el número.");
-    acumulador=parseInt(acumulador);
-      if(acumulador<acumulador){
-        minimo=acumulador;
+/*  while(respuesta==true){
+    num=prompt("Ingrese el número.");
+    num=parseInt(num);
+      if(num<minimo){
+        minimo=parseInt(minimo);
+        minimo=num;
       }
-      if(acumulador>acumulador){
-        maximo=acumulador;
+      if(num>maximo){
+        maximo=num;
       }
     respuesta=confirm("Quiere ingresar otro número?");
-}
+}*/
+
+do{
+  num=prompt("Ingrese el número.");
+  contador++;
+    if(contador==1){
+      minimo=num;
+      maximo=num;
+    }else{
+    if(num<minimo){
+      minimo=parseInt(minimo);
+      minimo=num;
+    }
+    if(num>maximo){
+      maximo=num;
+    }
+    }
+    respuesta=confirm("Quiere ingresar otro número?");
+}while(respuesta==true);
 
 document.getElementById("maximo").value=maximo;
 document.getElementById("minimo").value=minimo;
