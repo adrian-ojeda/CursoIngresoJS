@@ -5,16 +5,18 @@ function mostrar()
 	var acumulador, num=0, suma=0;
 	var respuesta='si';
 
-  num=prompt("Ingrese la cantidad de números a sumar.");
+  respuesta=confirm("Quiere ingresar un número?");
 
-  while(contador<num){
+  //if(respuesta==true){
+  while(respuesta==true){
     contador++;
-    acumulador=prompt("Ingrese 5 números.");
+    acumulador=prompt("Ingrese el número.");
     acumulador=parseInt(acumulador);
     suma+=acumulador;
-  }
+    respuesta=confirm("Quiere ingresar otro número?");
+}
 
 document.getElementById('suma').value=suma;
-document.getElementById('promedio').value=suma/num;
+document.getElementById('promedio').value=suma/contador;
 
 }//FIN DE LA FUNCIÓN
