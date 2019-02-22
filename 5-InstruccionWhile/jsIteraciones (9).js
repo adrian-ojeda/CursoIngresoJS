@@ -29,15 +29,15 @@ do{
     if(contador==1){
       minimo=num;
       maximo=num;
-    }else{
-    if(num<minimo){
-      minimo=parseInt(minimo);
-      minimo=num;
-    }
-    if(num>maximo){
-      maximo=num;
-    }
-    }
+      }else{
+        if(num<minimo){
+        minimo=parseInt(minimo);
+        minimo=num;
+        }
+        if(num>maximo){
+        maximo=num;
+        }
+        }
     respuesta=confirm("Quiere ingresar otro número?");
 }while(respuesta==true);
 
