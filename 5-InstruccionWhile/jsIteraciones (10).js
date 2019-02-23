@@ -19,13 +19,13 @@ function mostrar()
         contpos++;
         promediopos=positivo/contpos;
           }else{
-                  negativo+=num;
-                  contneg++;
-                  promedioneg=negativo/contneg;
-                  }
-        if(num==0){
-                contcero++;
-                  }
+            negativo+=num;
+            contneg++;
+            promedioneg=negativo/contneg;
+            }
+      if(num==0){
+        contcero++;
+        }
       if(num%2==0){
         par++;
           }else{
