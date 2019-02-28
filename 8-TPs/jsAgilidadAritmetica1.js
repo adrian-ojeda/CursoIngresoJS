@@ -8,18 +8,18 @@ se debe informar si el resultado es el correcto o no.
 */
 var respuesta;
 var num1, num2, operacion;
+var suma=3, resta=0, multiplicación, división;
 function comenzar()
 {
     num1=Math.floor(Math.random() * (10+1));
     document.getElementById("PrimerNumero").value=num1;
 
-    operacion=Math.floor(Math.random() * ("+","-","*","/"));
+    operacion=Math.floor(Math.random() * (suma, resta));
     document.getElementById("Operador").value=operacion;
 
     num2=Math.floor(Math.random() * (10+1));
     document.getElementById("SegundoNumero").value=num2;
 	
-
 }//FIN DE LA FUNCIÓN
 function Responder()
 {
