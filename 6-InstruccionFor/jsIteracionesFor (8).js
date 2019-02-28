@@ -12,11 +12,11 @@ for(var i=1;i<=num;i++){
      }
     }
 
-if(cant==2){
-    alert("Su número es primo.");
-}else{
+if(cant!=2){
     alert("Su número no es primo. Tiene: "+cant+" divisores.");
+}else{
+    alert("Su número es primo.");
 }      
     
 
-}//FIN DE LA FUNCIÓN
+}//FIN DE LA FUNCIÓN.
