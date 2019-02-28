@@ -14,6 +14,4 @@ for(var i=1;i<=num;i++){
 
 alert("La cantidad de esos números es de: "+cant);
 
-
-
 }//FIN DE LA FUNCIÓN

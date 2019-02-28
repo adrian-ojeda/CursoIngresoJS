@@ -12,10 +12,10 @@ for(var i=1;i<=num;i++){
      }
     }
 
-if(cant!=2){
-    alert("Su número no es primo. Tiene: "+cant+" divisores.");
-}else{
+if(cant==2){
     alert("Su número es primo.");
+}else{
+    alert("Su número no es primo. Tiene: "+cant+" divisores.");
 }      
     
 
