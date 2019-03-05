@@ -6,7 +6,7 @@ var ContadorDePerdidas=0;
 function comenzar()
 {
 	//Genero el número RANDOM entre 1 y 3
-eleccionMaquina=Math.floor(Math.random() * (3+1));
+eleccionMaquina=Math.floor(Math.random() * (3))+1;
     alert(eleccionMaquina);	 	
 
 }//FIN DE LA FUNCIÓN
