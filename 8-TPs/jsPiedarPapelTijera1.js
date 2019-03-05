@@ -8,7 +8,7 @@ var eleccionMaquina;
 
 function comenzar()
 {
-    eleccionMaquina=Math.floor(Math.random() * (3+1));
+    eleccionMaquina=Math.floor(Math.random() * (3-1+1))+1;
     alert(eleccionMaquina);
 
 
